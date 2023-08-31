@@ -49,3 +49,44 @@ html {
 .input-wrapper:not(:last-child) {
     margin-bottom: 4px;
 }
+
+@media(max-width: 900px) {
+    .container{
+        width: 450px;
+        font-size: 8px;
+    }
+
+    h2{
+        font-size: 14px;
+    }
+
+    .input-wrapper input{
+        font-size: 10px;
+    }
+
+    .input-wrapper label{
+        font-size: 10px;
+        font-weight: 600;
+    }
+}
+
+@media(max-width: 600px) {
+    .container{
+        width: 200px;
+        font-size: 6px;
+    }
+
+    h2{
+        font-size: 12px;
+    }
+
+    .input-wrapper input{
+        font-size: 8px;
+    }
+
+    .input-wrapper label{
+        font-size: 8px;
+        font-weight: 600;
+    }
+}
+
